@@ -1,0 +1,74 @@
+html, body, main {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: calc(100vh * 9 / 16);
+    height: calc(100vw * 16 / 9);
+
+    background-color: #f7fafc;
+    padding: 2rem 1rem;
+}
+
+header > h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3rem 0 2rem;
+}
+
+footer {
+    padding: 1rem;
+}
+
+footer > p {
+    color: gray;
+    font-size: smaller;
+    text-align: center;
+    margin: .2rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+#buttons > li {
+    margin: .2rem;
+    text-align: center;
+}
+
+main {
+    width: 80%;
+}
+
+fieldset {
+    pointer-events: none;
+}
+
+fieldset > label {
+    display: block;
+    margin-bottom: .2rem;
+}
